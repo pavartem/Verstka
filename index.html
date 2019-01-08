@@ -220,3 +220,12 @@
 
     });
 </script>
+
+<script>    //Retina
+    $(window).load(function() {
+        var images = $('img');
+        images.each(function(i) {
+            $(this).width($(this).width() / 2);
+        });
+    });
+</script>
